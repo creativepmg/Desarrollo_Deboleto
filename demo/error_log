@@ -1,0 +1,2 @@
+[19-Feb-2014 16:42:54 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'deboleto_admin'@'localhost' (using password: YES) in /home/deboleto/public_html/demo/index.php on line 138
+[25-Feb-2014 10:19:03 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'deboleto_admin'@'localhost' (using password: YES) in /home/deboleto/public_html/demo/index.php on line 138

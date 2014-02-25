@@ -514,6 +514,57 @@ footer{
 		margin-top: 0em;
 		font-size: 1.2em;
 	}
+	.noticias
+	{
+		margin-top: 1em;
+		width: 99.4%;
+		height: 210px;
+	}
+	.noticia
+	{
+		width: 32%;
+		border: solid 1px rgba(0,0,52,0);
+		display: inline-block;
+		vertical-align: top;
+		background-color: rgba(255,255,255,0.3);
+		overflow: hidden;
+		text-align: center;
+		height: 200px;
+		margin: 0.6em 0.2em 0em 0.2em;
+	}
+	.imagennoticia
+	{
+		margin-top: 1em;
+		width:40%;
+		height: 95px;
+		display: block;
+		text-align: center;
+	}
+	.imagennoticia a img {
+		width: 100%;
+	}
+	.titulonoticia{
+		width: 100%;
+		display: block;
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	.fecha{
+		text-align: left;
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+	}
+	.ver{
+		text-align:right;
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+	}
+	.ver a {
+		text-decoration: none;
+		color: #808080;
+	}
 }
 @media screen and (min-width: 1280px){
 	.logo
@@ -623,7 +674,7 @@ footer{
 	margin-left:8.1em;
 }
 .publicidad1 , .publicidad2{
-	width: 45%;
+	width: 46%;
 }
 .publicidad1{
 	margin-left:-1.2em !important;

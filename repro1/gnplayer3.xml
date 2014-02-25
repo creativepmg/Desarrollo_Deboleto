@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<aacplayer>
+	<station>Sin Parar</station>
+	<caption> Radio SinParar en vivo</caption>
+	<statusscriptlink></statusscriptlink>
+   <autoplay>yes</autoplay> 
+  <rtmp>rtmp://aac.01wzserver.com:1935/aacplus</rtmp> 
+  <shoutcast>8016</shoutcast> 
+</aacplayer>
