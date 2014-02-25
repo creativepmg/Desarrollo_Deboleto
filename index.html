@@ -1,151 +1,139 @@
-﻿<!doctype html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta property=og:image content="imagenes/logo.png"/>
-	<meta name="description" content="Radio Online donde encontraras lo mejor de la musica">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="HandheldFriendly" content="true" />
+	<title>Radio Online | Deboleto.pe | Radio Online</title>
 
-	<title>Radio Deboleto</title>
-
-	<link href='http://fonts.googleapis.com/css?family=Romanesco' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Cantora+One' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
-	<LINK REL="Shortcut Icon" HREF="imagenes/logo.ico" />
-	<link rel="image_src" href="imagenes/logo.png" />
-	<link rel="stylesheet" href="utilidades/normalize.css" />
-	<link rel="stylesheet" href="css/estilo.css" />
-	<!-- Insert to your webpage before the </head> -->
-    <script src="slider/java/jquery.js"></script>
-    <script src="slider/java/amazingslider.js"></script>
-    <script src="slider/java/initslider-1.js"></script>
-    <!-- End of head section HTML codes -->
-	 <script type="text/javascript">
-document.oncontextmenu = function(){return false;}
-</script> 
-<script id="_wau188">var _wau = _wau || [];
-_wau.push(["tab", "tek4ntnrarb5", "188", "left-middle"]);
-(function() {var s=document.createElement("script"); s.async=true;
-s.src="http://widgets.amung.us/tab.js";
-document.getElementsByTagName("head")[0].appendChild(s);
-})();</script>
+	<style type="text/css">
+		*{margin: 0;}
+		body
+		{
+			text-align: center;
+			max-width: 100%;
+		}
+		header
+		{
+			background: rgb(51,51,51);
+		}
+		footer
+		{
+			background: rgb(51,51,51);
+			color: rgb(233,233,233);
+			padding: 1em;
+		}
+		img
+		{
+			max-width: 70%;
+		}
+		figure, nav
+		{
+			vertical-align: top;
+		}
+		nav
+		{
+			display: inline-block;
+			width: 60%;
+		}
+		nav ul
+		{
+			list-style: none;
+		}
+		nav ul li
+		{
+			display: inline-block;
+			vertical-align: middle;
+		}
+		#bloque1,#bloque2,#bloque3
+		{
+			display: inline-block;
+			width: 33%;
+			vertical-align: top;
+		}
+		#bloque2 iframe
+		{
+			height: 580px;
+			width: 100%;
+		}
+		#logo,h1
+		{
+			display: inline-block;
+			color: rgb(233,233,233);
+			width: 200px;
+		}
+		#noticias article figure
+		{
+			display: inline-block;
+			width: 100px;
+		}
+		#noticias article figure img
+		{
+			width: 100%;
+		}
+	</style>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.timeago.js"></script>
+	<script type="text/javascript" src="js/analytics.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+		  jQuery("abbr.timeago").timeago();
+		});
+	</script>
 </head>
 <body>
-	<div id="cuerpo">
-		<header>
-			<div class="logo">
-				<a href="#"><img src="imagenes/logo.png" alt=""></a>
-			</div>
-			<div class="titulo">
-				<h1>Radio Deboleto | Bienvenidos</h1>
-			</div>
-			<div class="redes">
-				<a href="https://www.facebook.com/RadioDeboletoo" target="_blank"><img src="imagenes/fb.png" alt="facebook" title="Facebook/deboleto"></a>
-				<a href="https://twitter.com/DeboletoPe" target="_blank"><img src="imagenes/twitter.png" alt="twitter" title="twitter/deboleto"></a>
-				<a href="http://www.youtube.com/user/DeboletoTV" target="_blank"><img src="imagenes/youtube.png" alt="youtube" title="youtube/deboleto"></a>
-			</div>
-		</header>
-		<div class="cabezal">
-			<div class="frase">
-				<h2>Feliz Navidad y Un Prospero Año Nuevo </br>Te Desea Deboleto.Pe! - Estamos A otro Level</h2>
-			</div>
-		</div>
-		<div class="line1">
-			<img src="imagenes/medio3.png">
-		</div>
-		<div class="celular">
-			<div class="tituloline2">
-				<h3>Escucha la radio en tu celular:</h3>
-			</div><br>
-			<div class="line2">
-				<a href="rtsp://aac.01wzserver.com:1935/aacplus/8002" target="_blank"><img src="imagenes/android.png" alt="escuchanosenandroid"></a>
-				<a href="http://aac.01wzserver.com:1935/aacplus/8002/playlist.m3u8" target="_blank"><img src="imagenes/apple.png" alt="escuchanosenapple"></a>
-				<a href="rtsp://aac.01wzserver.com:1935/aacplus/8002" target="_blank"><img src="imagenes/bb.png" alt="escuchanosenblacberry"></a>
-			</div>
-		</div>
-		<div class="youtube">
-			<HR width=99% align="left" noshade="noshade" style="color: #FFFFFF;">
-			<h4>
-				Si quieres ver nuestros videos...Pulsa en el Logo de Youtube. GRACIAS!
-			</h4>
-		</div>
-	</div>
-	<div id="cuerpo2">
-		<div class="chat">
+	<header>
+		<figure id="logo">
+			<img src="imagenes/logo.png">
+		</figure>		
+		<nav>
+			<ul>
+				<li><h1>Deboleto.pe</h1></li>
+				<li>
+					<embed pluginspage="http://www.adobe.com/go/getflashplayer"src="repro/reprodeboleto.swf" width="302" height="160" wmode="transparent"type="application/x-shockwave-flash" allowscriptaccess="always"></embed>
+				</li>
+				<li>
+					<object type="application/x-shockwave-flash" width="160" height="40" data="http://norfipc.com/flash/clockdig.swf">
+						<param name="movie" value="http://norfipc.com/flash/clockdig.swf">
+					</object>
+				</li>
+			</ul>
+		</nav>	
+	</header>
+	<section id="contenido">
+		<section id="bloque1">			
+			<section id="locutor">
+				<figure>
+					<img src="http://ninogalissa.com/wp-content/uploads/2013/12/Sitio-en-Construccion-1.jpg">
+				</figure>
+			</section>
+			<section id="likes">
+				<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FRadio-Deboleto%2F401762786635562&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=478050628885860" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:180px;" allowTransparency="true"></iframe>
+			</section>
+		</section>
+		<section id="bloque2">
 			<iframe src="http://chatwing.com/deboletopee">Tu Dispositivo no soporta  La caja de flash o Iframes ! gracias</iframe>
-		</div>
-		<div class="reprolike">
-			<div class="repro">
-				<embed pluginspage="http://www.adobe.com/go/getflashplayer"src="repro/reprodeboleto.swf" width="302" height="160" wmode="transparent"type="application/x-shockwave-flash" allowscriptaccess="always"></embed>
-			</div>
-			<div class="like">
-				<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FRadioDeboletoo&width&height=258&colorscheme=light&show_faces=true&header=false&stream=false&show_border=false&appId=334775653285723" frameborder="0">Tu Dispositivo no soporta  La caja de flash o Iframes ! gracias</iframe>
-			</div>
-		</div>
-		<div class="videos">
-
-			<div class="ddc">
-			<div class="tittleddc">
-				<p>Detras de<b> CÁMARAS</b></p>
-			</div>
-				  <!-- Insert to your webpage where you want to display the slider -->
-    			<div id="amazingslider-1" style="display:block;position:relative;margin:0px auto 			0px;">
-        			<ul class="amazingslider-slides" style="display:none;">
-           			 <li><img src="slider/imagenes/imagen1.png" alt="imagen1" /></li>
-           			 <li><img src="slider/imagenes/imagen2.png" alt="imagen2" /></li>
-           			 <li><img src="slider/imagenes/imagen3.png" alt="imagen3" /></li>
-           			 <li><img src="slider/imagenes/imagen4.png" alt="imagen4" /></li>
-          			  <li><img src="slider/imagenes/imagen5.png" alt="imagen5" /></li>
-       			 </ul>
-       			 <div class="amazingslider-engine" style="display:none;"><a href="http://			amazingslider.com">jQuery Slideshow</a></div>
-   			 	</div>
-    			<!-- End of body section HTML codes -->
-			</div>
-			<div class="ev">
-				<div class="tittleev">
-				<p>Estreno de<b> VIDEO</b></p>
-				</div>
-				<iframe src="https://youtube.googleapis.com/v/nw-s_ZB3qmY" frameborder="0"></iframe>
-			</div>
-
-			<div class="pe">
-				<div class="tittleep">
-				<p>Proximo<b> ESTRENO</b></p>
-				</div>
-				<img src="imagenes/proximamente.png" alt="">
-			</div>
-		</div>
-		<div class="publicidad">
-			<div class="tittleddc">
-				<p>Pon aqui tu<b> PUBLICIDAD</b></p>
-			</div>
-			<div class="publicidad1">
-				<img src="imagenes/publicidad/publicidad1.png" alt="publicidad1">
-			</div>
-			<div class="publicidad2">
-				<img src="imagenes/publicidad/publicidad2.png" alt="publicidad2">
-			</div>
-		</div>
-	</div>	
+		</section>
+		<section id="bloque3">
+			<section id="noticias">
+				<article>
+					<h3><a href="http://elcomercio.pe/vamos/noticias/conoce-jet-donde-todos-podran-sentarse-ventana-noticia-1711088">En este jet todos podrán sentarse a la ventana</a></h3>
+					<figure>
+						<img src="http://cde.3.elcomercio.pe/ima/0/0/8/3/0/830241/320x198.jpg">
+					</figure>
+					<span>Por José Luis</span>
+					<abbr class="timeago" title="2014-02-25T21:00:00Z">hola</abbr>
+				</article>
+			</section>
+			<section id="publicidad">
+				<figure>
+					<img src="">
+				</figure>
+				<figure>
+					<img src="">
+				</figure>
+			</section>
+		</section>
+	</section>
 	<footer>
-		<div class="contacto">
-			<b>Contáctanos</b>
-			 <p>Contacto: contacto@deboleto.pe</p>
-			 <p>Telf: ***-****</p>
-			 <p>phone: ------</p>
-		</div>
-		<div class="logofinal1">
-			<img src="imagenes/logo2.png" alt="logo2">
-		</div>
-		<div class="logofinal2">
-			<img src="imagenes/finallogo.png" alt="deboleto.pe">
-		</div>
-		<div class="derechos">
-			<p>© 2013 Todos los derechos Reservados por Deboleto.pe</p>
-		</div>
+		TODOS LOS DERECHOS RESERVADOS POR DEBOLETO.PE DISEÑADO POR CREATIVEPMG
 	</footer>
 </body>
 </html>
